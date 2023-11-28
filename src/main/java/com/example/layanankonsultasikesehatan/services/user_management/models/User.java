@@ -19,7 +19,6 @@ public class User {
     private String email;
     private String kata_sandi;
 
-
     public int getId_pengguna() {
         return id_pengguna;
     }

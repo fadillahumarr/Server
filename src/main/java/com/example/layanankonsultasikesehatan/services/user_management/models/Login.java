@@ -3,12 +3,9 @@ package com.example.layanankonsultasikesehatan.services.user_management.models;
 public class Login {
     private String email;
     private  String kata_sandi;
-
-
     public String getEmail() {
         return email;
     }
-
     public void setEmail(String email) {
         this.email = email;
     }
