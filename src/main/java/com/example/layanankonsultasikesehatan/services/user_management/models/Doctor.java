@@ -10,9 +10,10 @@ public class Doctor {
     @Id
     private int id_dokter;
     private String nama_dokter;
-
     private String spesialis;
     private String alamat_dokter;
+    private int biaya_konsultasi;
+
 
     public int getId_dokter() {
         return id_dokter;
@@ -43,5 +44,13 @@ public class Doctor {
 
     public void setAlamat_dokter(String alamat_dokter) {
         this.alamat_dokter = alamat_dokter;
+    }
+
+    public int getBiaya_konsultasi() {
+        return biaya_konsultasi;
+    }
+
+    public void setBiaya_konsultasi(int biaya_konsultasi) {
+        this.biaya_konsultasi = biaya_konsultasi;
     }
 }

@@ -4,8 +4,6 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
-import java.util.Date;
-
 @Entity
 @Table(name = "pengguna")
 public class User {
@@ -82,4 +80,5 @@ public class User {
     public void setKata_sandi(String kata_sandi) {
         this.kata_sandi = kata_sandi;
     }
+
 }

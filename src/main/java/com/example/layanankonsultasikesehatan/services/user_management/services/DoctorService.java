@@ -9,7 +9,6 @@ import java.util.List;
 
 @Service
 public class DoctorService {
-
     @Autowired
     DoctorRepository itemRepository;
 
@@ -17,4 +16,7 @@ public class DoctorService {
         return itemRepository.findAllDokter();
     }
 
+    public Doctor getDoctorById(int id_dokter) {
+        return itemRepository.findDoctorById(id_dokter);
+    }
 }
